@@ -19,7 +19,7 @@ jobs:
           node-version: '20'  # or your version
 
       - name: Install dependencies
-        run: npm deploy
+        run: npm ci
 
       - name: Configure Git identity
         run: |
