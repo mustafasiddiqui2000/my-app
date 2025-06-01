@@ -125,7 +125,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h2 style={styles.heading}>Management (Local CRUD)</h2>
+      <h2 style={styles.heading}>Management</h2>
 
       <form onSubmit={handleSubmit} style={styles.form}>
         <input
